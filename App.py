@@ -17,7 +17,6 @@ def main():
     # Reads data from users.csv to the users dictionary of program evertime program runs
     readUsers()
     readExpenseHistory()
-    print(expenseHistory)
 
     while(True):
         # Program start running
